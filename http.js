@@ -95,3 +95,22 @@
 //     }
 //     );
 //     };
+
+
+
+// var http = require('http');
+
+// http.createServer((req,res)=>{
+//     res.write("Hello world");
+//     res.end()
+// }).listen(2323)
+
+
+
+
+var http = require('http');
+var nw = http.createServer((req,res)=>{
+    res.write("Hello world");
+    res.end()
+})
+module.exports = {nw};

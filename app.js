@@ -3,10 +3,10 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var jw = require('./jwtToken');
+// var jw = require('./jwtToken');
 // var msg = require('./msg');
 // var dotenv = require('dotenv');
-var config = require('./config')
+// var config = require('./config')
 var http = require('./http')
 
 

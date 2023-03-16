@@ -65,8 +65,16 @@ var express = require('express');
 //   }
 
 
-router.get('/api',(req,res)=>{
-    http.data(req,res,function(data){
+// router.get('/api',(req,res)=>{
+//     http.data(req,res,function(data){
+
+//     })
+// })
+
+
+
+router.get('/http',(req,res)=>{
+    http.nw(req,res,function(result){
 
     })
 })
